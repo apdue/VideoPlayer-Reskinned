@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="layoutBGGray">#f6f6f6</color>
+    <color name="screen_background">#ffffff</color>
+    <color name="bg_card">#ffffff</color>
+    <color name="btn_color">#f73570</color>
+    <color name="textwhite">#ffffff</color>
+
+    <color name="AppThemColor">#8A2387</color>
+    <color name="sub_text_color">#7A7A7A</color>
+
+    <color name="teal_200">#8A2387</color>
+    <color name="light_dark">#74000000</color>
+    <color name="purple_200">#8A2387</color>
+
+    <!--ad color-->
+    <color name="ad_bedeg_bck_yellow">#ffc107</color>
+    <color name="ad_bedeg_text_color">#000000</color>
+    <color name="big_native_ad_text_color">#23283a</color>
+    <color name="small_native_ad_text_color">#23283a</color>
+    <color name="extrasmall_native_ad_text_color">#23283a</color>
+    <color name="big_native_ad_bck_color">#ffffff</color>
+    <color name="small_native_ad_bck_color">#ffffff</color>
+    <color name="extrasmall_native_ad_bck_color">#ffffff</color>
+    <color name="gray_ads">#333333</color>
+    <color name="home_bgtt">#009F04</color>
+    <color name="white_text">#BDBDBD</color>
+    <color name="app_bck_color">#ffffff</color>
+    <color name="download_title">#151515</color>
+    <color name="download_sub_title">#969696</color>
+</resources>

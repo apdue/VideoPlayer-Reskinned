@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VideoMusicPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="Theme.VideoMusicPlayer" parent="Base.Theme.VideoMusicPlayer">
+        <item name="colorPrimaryDark">@color/AppThemColor</item>
+        <item name="colorAccent">@color/AppThemColor</item>
+        <item name="colorPrimary">@color/AppThemColor</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/white</item>
+    </style>
+
+
+    <style name="ArtimindTextStyleMedium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/outfit_medium_23rd</item>
+    </style>
+</resources>

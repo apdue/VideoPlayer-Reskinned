@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628028570702",
+    "project_id": "sdaefas-simple-firfo",
+    "storage_bucket": "videosimplemaster-simple-firfo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628028570702:android:985810aef6b07e26184343f",
+        "android_client_info": {
+          "package_name": "com.newplayer.april23rd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA10EX73C7o4osKSDKPebhLq6PtBFwMadsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

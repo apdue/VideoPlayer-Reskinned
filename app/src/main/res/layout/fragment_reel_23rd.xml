@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.exoplayer2.ui.StyledPlayerView
+            android:id="@+id/playerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/black"
+            android:padding="0dp"
+            app:resize_mode="fill"
+            app:shutter_background_color="@color/black"
+            app:use_controller="false" />
+
+        <ImageView
+            android:id="@+id/thumb_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            fresco:actualImageScaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/volumeImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_bg_23rd"
+            android:padding="10dp"
+            android:src="@drawable/ic_mute_23rd"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/side_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomView"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:gravity="center_horizontal"
+            android:layoutDirection="ltr"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/downloadImageView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_download_23rd" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomView"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/side_menu"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/videoNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/bold_23rd"
+                android:maxLines="2"
+                android:text="My Videos"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/categoryNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/category_bg_23rd"
+                android:fontFamily="@font/bold_23rd"
+                android:paddingLeft="7dp"
+                android:paddingTop="3dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="3dp"
+                android:text="healthand care"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            android:layoutDirection="ltr"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ViewForPlaylist"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:paddingStart="12dp"
+                android:paddingRight="12dp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/p_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/white"
+                android:layoutDirection="ltr"
+                android:secondaryProgress="@android:integer/config_shortAnimTime"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
